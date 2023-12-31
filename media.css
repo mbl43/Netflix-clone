@@ -1,0 +1,39 @@
+@media screen and (max-width: 850px) {
+  .first {
+    flex-wrap: wrap;
+  }
+  .first div {
+    text-align: center;
+  }
+  section {
+    overflow: hidden;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .main-headline > :nth-child(1) {
+    font-size: 24px;
+  }
+  .main-headline > :nth-child(2) {
+    font-size: 20px;
+  }
+  .main-headline > :nth-child(3) {
+    font-size: 16px;
+  }
+  .btn,.btn-sm{
+    padding: 5px 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+.flex{
+    gap: 5px;
+    position: relative;
+    left: 40px;
+}
+}

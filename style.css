@@ -85,23 +85,33 @@ nav button {
 .separation {
   background-color: #232323;
   height: 7px;
+  z-index: 999;
+  position: relative;
 }
 .btn {
   background-color: rgba(23, 23, 23, 0.5);
+  font-weight: 500;
+  padding: 10px 28px;
   color: white;
+  font-size: 20px;
   border-radius: 5px;
-  font-size: 700;
-  padding: 15px;
 }
 .btn-red {
-  background-color: red;
+ 
   font-size: 20px;
-  padding: 5px 25px;
+  padding: 8px 31px;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  background-color: red;
 }
 .btn-sm {
   background-color: red;
   font-size: 20px;
   padding: 5px 25px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 500;
 }
 .main input {
   font-size: 12px;
@@ -135,33 +145,32 @@ nav button {
 .first > div {
   font-size: 24px;
   font-weight: bolder;
+  padding: 34px 0;
 }
 
 .secimg {
   position: relative;
 }
 .secimg img {
-  width: 30vw;
+  width: 433px;
   position: relative;
   top: 0;
   z-index: 10;
 }
 .secimg video {
   position: absolute;
-  left: 5px;
-  top: 70px;
-  width: 29vw;
-  height: 26vh;
+  width: 309px;
+  left: 60px;
+  top: 102px;
 }
 section {
-  height: 75vh;
+  height: auto;
 }
-.third .secimg video {
+.third .secimg > video {
   position: absolute;
-  left: 75px;
-  top: 30px;
-  width: 20vw;
-  height: 27vh;
+  left: 81px;
+  top: 63px;
+  width: 270px;
 }
 .faq {
   color: white;
@@ -169,7 +178,7 @@ section {
   height: auto;
 }
 .faqbox {
-  background-color: rgb(45,45,45);
+  background-color: rgb(45, 45, 45);
 
   display: flex;
   padding: 25px;
@@ -178,56 +187,45 @@ section {
   margin: auto;
   border-radius: 15px;
   max-width: 70vw;
-   align-items: center;
-   margin-bottom: 15px;
+  align-items: center;
+  margin-bottom: 15px;
 }
-.faq >h1
-{
+.faq > h1 {
   /* margin: auto;
   display: flex; */
   font-size: 48px;
   text-align: center;
   padding-bottom: 10px;
   /* justify-content: center; */
-
 }
-.faqbox span
-{
+.faqbox span {
   font-size: 24px;
   font-weight: 400;
 }
-.faqbox:hover
-{
-  background-color:#414141;
+.faqbox:hover {
+  background-color: #414141;
 }
-footer
-{
+footer {
   color: white;
-  
+
   max-width: 60vw;
   margin: auto;
   padding: 34px;
 }
-.question
-{
+.question {
   padding: 25px 0;
 }
-.footer
-{
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
-   
 }
-.footer-item
-{
+.footer-item {
   display: flex;
   flex-direction: column;
   color: white;
   gap: 14px;
 }
-.footer a
-{
+.footer a {
   text-decoration: none;
   color: white;
 }
