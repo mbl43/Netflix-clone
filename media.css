@@ -43,6 +43,10 @@
 /* medium mobile size media queries */
 
 @media screen and (max-width: 376px) {
+  .main
+  {
+    height: 90vh;
+  }
   nav span img {
     width: 100px;
   }
