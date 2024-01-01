@@ -24,16 +24,83 @@
   .main-headline > :nth-child(3) {
     font-size: 16px;
   }
-  .btn,.btn-sm{
+  .btn,
+  .btn-sm {
     padding: 5px 5px;
     font-size: 16px;
   }
 }
 
+/* large mobile size media queries */
+
 @media screen and (max-width: 425px) {
-.flex{
+  .flex {
     gap: 5px;
     position: relative;
     left: 40px;
+  }
 }
+/* medium mobile size media queries */
+
+@media screen and (max-width: 376px) {
+  nav span img {
+    width: 100px;
+  }
+
+  .main-headline > :nth-child(1) {
+    font-size: 31px;
+  }
+  .btn-red {
+    font-size: 14px;
+    padding: 9px 16px;
+  }
+  .main input {
+    font-size: 12px;
+    padding: 11px 15px 7px 10px;
+  }
+  .flex {
+    gap: 5px;
+    position: relative;
+    left: 40px;
+  }
+  .faqbox {
+    padding: 15px;
+  }
+  .faqbox span {
+    font-size: 20px;
+  }
+  .faq > h1 {
+    font-size: 40px;
+  }
+  .first > div {
+    padding: 15px 0;
+  }
+  .first > div > h1 {
+    font-size: 40px;
+    line-height: 42px;
+
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .first > .secimg video {
+    width: 244px;
+    left: 47px;
+    top: 79px;
+  }
+  .first > .secimg img {
+    width: 340px;
+  }
+  .third > .secimg video {
+    width: 190px;
+    left: 51px;
+    top: 42px;
+  }
+  .third > .secimg img {
+    width: 297px;
+  }
+  .btn,
+  .btn-sm {
+    padding: 5px 5px;
+    font-size: 16px;
+  }
 }
